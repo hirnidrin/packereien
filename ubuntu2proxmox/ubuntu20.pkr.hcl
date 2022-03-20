@@ -52,7 +52,7 @@ source "proxmox-iso" "proxmox-ubuntu-20" {
   os                          = "l26"
   scsi_controller             = "virtio-scsi-pci"
   disks {
-    disk_size                 = "10G"
+    disk_size                 = "20G"
     storage_pool              = "local-lvm"
     storage_pool_type         = "lvm"
   }
